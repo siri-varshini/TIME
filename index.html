@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    
+    <title>time(to-do)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote">
+            <h5>$ "Time you enjoy wasting is not wasted time"    by Marthe Troly Curtin $</h5>
+        </div>
+        <div><label for="new-task" class="up">ADD TASK</label></div>
+        <div>
+            <input id="new-task" type="text">
+            <button>add task</button>
+        </div>
+        <div>
+            <h3 class="red">TO DO</h3>
+            <ul id="incomplete-tasks"></ul>
+        </div>
+        <div>
+            <h3 class="green">COMPLETED TASKS</h3>
+            <ul id="completed-tasks"></ul>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
